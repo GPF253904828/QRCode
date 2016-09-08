@@ -40,6 +40,7 @@
     bt.backgroundColor = [UIColor redColor];
     bt.frame = CGRectMake(0, 40, 50, 50);
     [self.view addSubview:bt];
+    ////////////
 }
 - (void)back:(id)sender{
     [self dismissViewControllerAnimated:YES completion:^{
