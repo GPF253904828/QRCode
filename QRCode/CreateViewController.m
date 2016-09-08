@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor whiteColor];
-
+    
     _createBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [_createBtn setTitle:@"点击创建二维码(www.baidu.com)" forState:UIControlStateNormal];
     [_createBtn addTarget:self action:@selector(createBtnClick:) forControlEvents:UIControlEventTouchUpInside];
